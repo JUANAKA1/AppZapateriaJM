@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    android:padding="40dp"
+    tools:context=".HomePage"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- Texto de bienvenida -->
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Bienvenido a JM Zapatería!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Botón para ver productos -->
+    <Button
+        android:id="@+id/view_products"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Productos"
+        android:background="@drawable/round_btn"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Botón para ir al perfil -->
+    <Button
+        android:id="@+id/view_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mi Perfil"
+        android:background="@drawable/round_btn"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

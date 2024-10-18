@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "661770160053",
+    "project_id": "zapateriajm-1cc17",
+    "storage_bucket": "zapateriajm-1cc17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661770160053:android:c835c95c457d61607efbfc",
+        "android_client_info": {
+          "package_name": "com.example.zapateria"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN8WltWU7HfrNKXmIk4my3-bjko8qJrdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
